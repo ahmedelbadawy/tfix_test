@@ -13,7 +13,7 @@ We have loaded T5 base model which is already trained a large-scale dataset of â
 
 The model has accuracy of 0.49 which is matching with the target source without, this percentage will increase when using error removal as a metric also as it counts a prediction as correct if the error is removed, in the paper it reached accuracy of 0.67
 
-You will find the results in the folder [t5model_results](t5model_results)
+You will find the test results in test_data.json file and accuracy in each error type in first_acc.txt file in the folder [t5model_results](t5model_results)
 
 ### Here are some examples from the results
 ```
