@@ -5,7 +5,7 @@ TFix is a state-of-the-art system for automatically fixing coding errors in prog
 
 
 
-We have loaded T5 base model which is already trained a large-scale dataset of ∼100k aligned pairs of coding errors and fixes from 5.5 million GitHub commits, then we have predicted the output for some test examples of the different error types, and we generated jason file which have
+We have loaded T5 base model which is already trained on a large-scale dataset of ∼100k aligned pairs of coding errors and fixes from 5.5 million GitHub commits, then we have predicted the output for some test examples of the different error types, and we generated jason file which have
 * source code: is the code which have an error
 * target code: is the code after being corrected by a human developer
 * prediction: is the corrected code predicter by the model
